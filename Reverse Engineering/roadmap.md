@@ -58,7 +58,4 @@
 
 ---
 
-# 📅 Daily Expansion (Optional)
-
-If you want the full Day 1–30 breakdown, add it below.
 
