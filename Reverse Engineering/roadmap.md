@@ -1,4 +1,4 @@
-# 1-Month Reverse Engineering Weekly Planner (Beginner Friendly)
+# 1-Month Reverse Engineering Weekly Planner 
 
 ---
 
