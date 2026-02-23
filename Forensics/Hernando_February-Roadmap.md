@@ -1,123 +1,155 @@
-#  1-Month Digital Forensics Roadmap (February)
+# 1-Month Network Forensics Roadmap (February)
 
 ## Overview
-Digital forensics involves collecting, preserving, analyzing, and presenting digital evidence. This roadmap builds foundational investigation skills across disk, memory, and network forensics while integrating hands-on CTF practice.
+This roadmap focuses on **Network Forensics** as the core discipline.  
+Weeks 1 and 2 introduce foundational knowledge, while Weeks 3 and 4 reinforce learning through **hands-on forensic challenges and CTF-style investigations**, emphasizing analysis, reasoning, and reporting rather than introducing new theory.
 
 ---
 
-##  Week 1 — Digital Forensics Fundamentals & File Analysis
-**Goal:** Understand investigation principles and how digital evidence is structured and hidden.
+## Week 1 — Network Forensics Fundamentals & Packet Analysis
+**Goal:** Understand how network evidence is captured, structured, and interpreted.
 
 ### Topics to Cover
-- Introduction to digital forensics  
-- Types of forensic investigations  
-  - Disk forensics  
-  - Memory forensics  
-  - Network forensics  
-  - Mobile forensics  
-- Evidence handling and chain of custody  
-- File systems basics  
-  - FAT  
-  - NTFS  
-  - EXT  
-- Metadata analysis  
-- File signatures and magic numbers  
-- File carving techniques  
-- Encoding and obfuscation methods  
-- Steganography basics   
+- Introduction to Network Forensics
+- Role of Network Forensics in Incident Response
+- Types of Network Evidence
+  - PCAP files
+  - Logs
+  - NetFlow
+- Evidence Handling and Chain of Custody
+- OSI and TCP/IP Models (Forensic Perspective)
+- Packet Structure and Headers
 
-###  Practice
-- Analyze file metadata  
-- Extract hidden files from samples  
-- Decode encoded data  
-- Solve beginner forensic CTF challenges  
+### Core Protocols
+- Ethernet
+- ARP
+- IP
+- TCP vs UDP
+- ICMP
 
----
+### Traffic Capture Basics
+- PCAP files
+- Network traffic capture concepts
 
-##  Week 2 — Disk Forensics & System Artifacts
-**Goal:** Learn how investigators recover and analyze data from storage devices.
-
-### Topics to Cover
-- Disk imaging and acquisition  
-- Hash verification and evidence integrity  
-- Deleted file recovery  
-- Partition analysis  
-- Windows forensic artifacts  
-  - Registry  
-  - Event logs  
-  - Prefetch files  
-  - Browser history  
-- Linux forensic artifacts  
-  - Log files  
-  - Bash history  
-  - Cron jobs  
-- Timeline analysis and MAC timestamps  
-  
+### Network Forensic Tools
+- Wireshark
+- tcpdump
+- tshark
 
 ### Practice
-- Create and analyze disk images  
-- Recover deleted files  
-- Investigate system activity artifacts  
-- Solve disk forensic CTF challenges  
+- Open and inspect PCAP files
+- Identify protocols and packet fields
+- Apply Wireshark display filters
+- Follow TCP streams
+- Solve beginner network forensic CTF challenges
 
 ---
 
-## Week 3 — Memory Forensics & Malware Artifacts
-**Goal:** Understand how attackers operate in memory and how to detect malicious activity.
+## Week 2 — Protocol Analysis & Suspicious Network Activity
+**Goal:** Detect abnormal and malicious behavior through protocol analysis.
 
 ### Topics to Cover
-- Memory forensics fundamentals  
-- RAM acquisition concepts  
-- Volatility framework basics  
-- Process and service analysis  
-- Detecting injected or malicious processes  
-- DLL injection overview  
-- Network connections inside memory  
-- Malware persistence techniques  
+- HTTP and HTTPS forensic analysis
+- DNS traffic analysis and abuse techniques
+- FTP, SMTP, and SMB traffic basics
 
+### Indicators of Suspicious Activity
+- Unusual ports and protocols
+- Beaconing patterns
+- Repeated failed connections
+- Traffic filtering and stream reconstruction
+- File extraction from network traffic
+
+### Common Attack Patterns
+- Network scanning
+- Brute-force attacks
+- Unauthorized data transfer
 
 ### Practice
-- Analyze memory dumps  
-- Identify suspicious processes  
-- Extract network artifacts from RAM  
-- Solve memory forensic CTF challenges  
+- Analyze HTTP sessions and headers
+- Identify suspicious DNS queries
+- Extract files from PCAP traffic
+- Detect scanning or brute-force behavior
+- Solve protocol-focused forensic CTF challenges
 
 ---
 
-##  Week 4 — Network Forensics & Investigation Workflow
-**Goal:** Learn how to investigate cyber incidents using network evidence and real-world methodologies.
+## Week 3 — Applied Network Forensics Challenges
+**Goal:** Reinforce Weeks 1–2 concepts through guided forensic challenges.
 
-### Topics to Cover
-- Network forensics fundamentals  
-- Packet capture analysis  
-- TCP/IP, HTTP, and DNS analysis  
-- Traffic filtering and stream reconstruction  
-- Detecting suspicious network activity  
-- Data exfiltration techniques  
-- Log analysis and SIEM concepts  
-- Incident investigation methodology  
-- Forensic reporting basics  
-
+### Focus Areas (No New Topics)
+- Packet and protocol identification
+- TCP and UDP stream reconstruction
+- HTTP and DNS analysis
+- Detection of abnormal traffic patterns
+- File and data extraction from traffic
 
 ### Practice
-- Analyze PCAP traffic samples  
-- Identify suspicious communications  
-- Solve mixed forensic CTF challenges  
-- Perform a mini forensic investigation project  
+- Solve beginner to intermediate network forensic CTFs
+- Analyze small to medium PCAP datasets
+- Answer investigation questions:
+  - What protocol was abused?
+  - Which IPs or domains are suspicious?
+  - What data was transferred?
+- Re-analyze PCAPs using different filtering strategies
+- Document findings in structured notes
+
+### Expected Outcome
+- Systematic approach to solving forensic challenges
+- Improved speed and confidence in PCAP analysis
+
+---
+
+## Week 4 — Advanced Network Forensic Challenges & Mini Investigation
+**Goal:** Perform full network-centric investigations using realistic datasets.
+
+### Focus Areas
+- Multi-stage attack analysis
+- Timeline reconstruction from PCAP evidence
+- Identifying:
+  - Initial access
+  - Command activity
+  - Data exfiltration
+- Correlating multiple suspicious behaviors
+- Working with large PCAP files
+
+### Practice
+- Solve intermediate to advanced forensic CTF challenges
+- Analyze realistic PCAPs independently
+- Identify attacker infrastructure and victim activity
+- Perform a mini network forensic investigation project
+
+### Forensic Report Requirements
+Include:
+- Scope and assumptions
+- Key findings
+- Supporting evidence
+- Conclusion
+
+### Expected Outcome
+- End-to-end network evidence analysis capability
+- Experience with DFIR-style investigations
 
 ---
 
 ## Expected Outcomes After February
 By completing this roadmap, you should be able to:
 
-- Understand digital forensic investigation workflow  
-- Analyze disk images and recover deleted data  
-- Investigate system and user activity artifacts  
-- Perform basic memory dump analysis  
-- Analyze network traffic for suspicious behavior  
-- Solve beginner to intermediate forensic CTF challenges  
-- Document findings in a simple forensic report  
+- Understand the network forensic investigation workflow
+- Analyze and interpret PCAP files confidently
+- Detect suspicious and malicious network activity
+- Reconstruct sessions and extract transferred data
+- Solve beginner to intermediate forensic CTF challenges
+- Conduct a basic network-focused forensic investigation
+- Write clear and defensible forensic reports
 
 ---
 
+## Recommended Platforms
+- TryHackMe (Network Forensics rooms)
+- Hack The Box Academy
+- CyberDefenders
+- Blue Team Labs Online
+- PicoCTF (Forensics category)
 
+---
