@@ -95,9 +95,7 @@ _**Specific learning tasks:**_
   - Certificate chains and trust models
 ---
 _**Practical tasks:**_ <br>
-**1.)**  Analyze one weak RSA scenario (e.g., small exponent or bad primes)<br>
-**2.)**  Trace a TLS handshake and identify where asymmetric crypto is used<br>
-**3.)**  Solve 1 public-key crypto CTF challenge<br>
+**1.)**  Solve 4 asymmetric cryptography CTF challenges involving public-key cryptography concepts.)<br>
 
 ---
 <br>
