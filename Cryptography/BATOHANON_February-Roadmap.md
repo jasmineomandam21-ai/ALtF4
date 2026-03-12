@@ -95,10 +95,9 @@ _**Specific learning tasks:**_
   - Certificate chains and trust models
 ---
 _**Practical tasks:**_ <br>
-**1.)**  Walk through RSA key generation and encryption (math + concept)<br>
-**2.)**  Analyze one weak RSA scenario (e.g., small exponent or bad primes)<br>
-**3.)**  Trace a TLS handshake and identify where asymmetric crypto is used<br>
-**4.)**  Solve 1 public-key crypto CTF challenge<br>
+**1.)**  Analyze one weak RSA scenario (e.g., small exponent or bad primes)<br>
+**2.)**  Trace a TLS handshake and identify where asymmetric crypto is used<br>
+**3.)**  Solve 1 public-key crypto CTF challenge<br>
 
 ---
 <br>
@@ -129,10 +128,6 @@ _**Practical tasks:**_ <br>
 **1.)**  Compare secure vs insecure password storage methods<br>
 **2.)**  Analyze one real-world crypto misuse (e.g., ECB, bad JWT)<br>
 **3.)**  Solve 1 applied-crypto CTF challenge<br>
-**4.)**  Mini-project: <br>
-   - Review a cryptographic system or protocol
-   - Identify weaknesses or misuse
-   - Propose more secure alternatives
 
 ---
 <br>
@@ -145,6 +140,5 @@ By completing this roadmap, learners should be able to:
 - Understand how AES, RSA, hashing, and key exchange are used in practice
 - Identify common cryptographic vulnerabilities and misuse
 - Solve beginner to intermediate cryptography challenges in CTF environments
-- Critically assess cryptographic designs in real-world applications
 
 _Advanced topics such as elliptic curve cryptography, post-quantum cryptography, and zero-knowledge proofs are recommended as follow-up areas of study._
