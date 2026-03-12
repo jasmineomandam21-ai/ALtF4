@@ -95,7 +95,7 @@ _**Specific learning tasks:**_
   - Certificate chains and trust models
 ---
 _**Practical tasks:**_ <br>
-**1.)**  Solve 4 asymmetric cryptography CTF challenges involving public-key cryptography concepts.)<br>
+**1.)**  Solve an asymmetric cryptography CTF challenge involving public-key cryptography concepts.)<br>
 
 ---
 <br>
