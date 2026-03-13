@@ -123,7 +123,7 @@ _**Specific learning tasks:**_
 - Learn cryptographic best practices and secure design principles
 ---
 _**Practical task:**_ <br>
-Solve multiple applied cryptography challenges on picoCTF focusing on real-world cryptographic weaknesses. Analyze and document the vulnerability used in each solved challenge (e.g., weak RSA parameters, improper encryption modes, poor key usage). Write short technical write-ups explaining the challenge overview, exploitation process, and lessons learned from each CTF problem.<br>
+Solve an applied cryptography challenges on picoCTF focusing on real-world cryptographic weaknesses. Analyze and document the vulnerability used in each solved challenge (e.g., weak RSA parameters, improper encryption modes, poor key usage). Write short technical write-ups explaining the challenge overview, exploitation process, and lessons learned from each CTF problem.<br>
 
 ---
 <br>
