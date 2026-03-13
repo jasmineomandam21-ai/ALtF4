@@ -95,7 +95,7 @@ _**Specific learning tasks:**_
   - Certificate chains and trust models
 ---
 _**Practical tasks:**_ <br>
-**1.)**  Solve an asymmetric cryptography CTF challenge involving public-key cryptography concepts.)<br>
+**1.)**  Solve at least 2 asymmetric cryptography CTF challenge involving public-key cryptography concepts.<br>
 
 ---
 <br>
@@ -122,10 +122,10 @@ _**Specific learning tasks:**_
   - Padding oracle attacks (conceptual understanding)
 - Learn cryptographic best practices and secure design principles
 ---
-_**Practical tasks:**_ <br>
-**1.)**  Compare secure vs insecure password storage methods<br>
-**2.)**  Analyze one real-world crypto misuse (e.g., ECB, bad JWT)<br>
-**3.)**  Solve 1 applied-crypto CTF challenge<br>
+_**Practical task:**_ <br>
+Solve multiple applied cryptography challenges on picoCTF focusing on real-world cryptographic weaknesses.<br>
+Analyze and document the vulnerability used in each solved challenge (e.g., weak RSA parameters, improper encryption modes, poor key usage).<br>
+Write short technical write-ups explaining the challenge overview, exploitation process, and lessons learned from each CTF problem.<br>
 
 ---
 <br>
