@@ -1,16 +1,5 @@
 #  March Learning Roadmap — Cryptography
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Week 1 — Cryptography Basics (Topics Only)](#week-1--cryptography-basics-topics-only)
-- [Week 2 — Cryptography Types and Algorithms (Topics Only)](#week-2--cryptography-types-and-algorithms-topics-only)
-- [Week 3 — Basic Cryptography Practice (Hands-On)](#week-3--basic-cryptography-practice-hands-on)
-- [Week 4 — Real-World Cryptography Applications (Hands-On)](#week-4--real-world-cryptography-applications-hands-on)
-- [Expected Outcomes](#expected-outcomes-after-march)
-- [Follow-Up Topics](#follow-up-topics)
-
----
-
 ## Introduction
 
 Cryptography is the science of securing information by transforming it into unreadable formats and protecting it from unauthorized access. Modern systems rely on cryptography for secure communication, password storage, digital signatures, and data integrity. Weaknesses in cryptographic implementations can allow attackers to decrypt sensitive data, impersonate users, or tamper with information.
@@ -123,14 +112,5 @@ After completing this roadmap, learners should be able to:
 
 ---
 
-## Follow-Up Topics
-
-- Advanced symmetric & asymmetric algorithms (DES, ECC)  
-- Digital signatures and certificates  
-- Public Key Infrastructure (PKI)  
-- Advanced hashing techniques  
-- Cryptanalysis and breaking weak ciphers  
-
----
 
 
